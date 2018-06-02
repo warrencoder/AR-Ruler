@@ -108,7 +108,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         let distance = sqrt(pow(a, 2) + pow(b,2) + pow(c,2))
         
-        updateText(text: "\(distance * 100.0) cm", atPosition: start.position)
+        updateText(text: "\(distance * 100.0) cm", atPosition: end.position)
         
     }
     
